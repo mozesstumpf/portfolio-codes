@@ -1,0 +1,36 @@
+export const theme = {
+	color: {
+		main: ['#00bfff', '#05c77e'],
+		green: ['#0bbd7a', '#00ff9f', '#28a745'],
+		gray: [
+			'#f3f3f3',
+			'#ebebeb',
+			'#e2e2e2',
+			'#7e7e7e',
+			'#737373',
+			'#c4c4c4',
+			'#98a4ac',
+		],
+		white: ['#ffffff'],
+		black: ['#000000', '#00000014', '#00000064', '#00000036'],
+		red: ['#ff0000', '#dd0031', '#ff2929', '#f85149'],
+		yellow: ['#ffd600'],
+		orange: ['#f8d758'],
+		blue: ['#00abcd', '#088cd4', '#3178c6'],
+	},
+	fontFamily: {
+		poppins: "'Poppins', 'sans-serif'",
+		spaceGrotesk: "'Space Grotesk', 'sans-serif'",
+		roboto: "'Roboto', 'sans-serif'",
+		rubikBubbles: "'Rubik Bubbles', sans-serif",
+		blackOpsOne: "'Black Ops One', sans-serif",
+		changaOne: "'Changa One', sans-serif",
+	},
+	breakpoints: {
+		xs: '0px',
+		sm: '576px',
+		md: '768px',
+		lg: '992px',
+		xl: '1200px',
+	},
+} as const;
